@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="styleCadastro.css">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Cadastro de usuários</h1>
+    </header>
+
+    <main class="hero">
+        <div class="title">
+            <h2>Fazer cadastro</h2>
+            <a href="index.html">Voltar</a>
+        </div>
+        <div class="card">
+            <form id="lineInput">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Nome" required>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="E-mail" required>
+            <button type="button" onclick="cadastrarUsuario()">Incluir</button>
+        </div>
+    </main >  
+</body>
+</html>
